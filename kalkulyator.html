@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="kalkulyator.css" />
+</head>
+<body>
+    <div class="header">
+        <input type="text" id="ekran" />
+        <div class="lol">
+        <button onclick="oka()" id="button"><img src="images.png" alt="" /></button>
+        <input type="button" value="AC" id="c" onclick="c()">
+
+    </div>
+    <div class="raqamlar">
+        <table>
+            <tr>                           
+                <td>
+                    <input type="button" value="9" class="salom1" id="s" onclick="son(9)" >
+                    <input type="button" value="8" class="salom1" id="s" onclick="son(8)" >
+                    <input type="button" value="7" class="salom1" id="s" onclick="son(7)" >
+                    <input type="button" value="+" class="salom1" id="s" onclick="amal_func('+')">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" value="4" id="s" onclick="son(4)" class="salom2" id="a">
+                    <input type="button" value="5" id="s" onclick="son(5)" class="salom2" id="a">
+                    <input type="button" value="6" id="s" onclick="son(6)" class="salom2" id="a">
+                    <input type="button" value="-" onclick="amal_func('-')" class="salom2" id="a">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" value="3" onclick="son(3)" class="salom3" id="w">
+                    <input type="button" value="2" onclick="son(2)" class="salom3" id="w">
+                    <input type="button" value="1" onclick="son(1)" class="salom3" id="w">
+                    <input type="button" value="*" onclick="amal_func('*')" class="salom3" id="w">
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <input type="button" name="" onclick="son(0)" value="0" class=" class4">
+                    <input type="button" name="" onclick="son('/')" value="/" class=" class5">
+                </td>
+            </tr> 
+
+            <tr>
+                <td colspan="4">
+                    <input type="button" value="=" class="salom6" onclick="teng('=')">
+                </td>
+            </tr>
+            
+        </table>
+
+    </div>
+    <script src="kalkulyator.js"></script>
+  </body>
+</html>
+

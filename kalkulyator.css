@@ -1,0 +1,125 @@
+.header{
+    width: 490px;
+    height: 580px;
+    background-color: #0d2636;
+    border: 3px solid red;
+}
+h2{
+}
+body{ 
+    background-image: url("01.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+#ekran{
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 30px;
+    
+    margin: 0;
+    margin-left: -0.1px;
+}
+#ekran:hover{
+    background-color: white;
+}
+
+#c{
+    width: 200px;
+    height: 52px;
+    font-size: 30px;
+    color: white;
+    margin-top: 9px;
+    margin-right: 10px;
+    margin-left: 5.5px;
+    background-color: crimson;
+    text-align: center;
+}
+#c:hover{
+    background-color: teal;
+}
+.lol{
+    display: flex;
+}
+#button{
+    width: 235px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 24px;
+    
+}
+
+button img{
+    width: 100px;
+}
+.salom1{
+    width: 90px;
+    height: 80px;
+    font-size: 25px;
+    font-family: monospace;
+    
+    
+}
+.salom1:hover{
+    background-color: dodgerblue;
+}
+.salom2{
+    width: 90px;
+    height: 80px;
+    font-size: 25px;
+    font-family: monospace;
+}
+.salom2:hover{
+    background-color: dodgerblue;
+}
+.salom3{
+    width: 90px;
+    height: 80px;
+    font-size: 25px;
+    font-family: monospace;
+}
+.salom3:hover{
+    background-color: dodgerblue;
+}
+.class4{
+    width: 90px;
+    height: 80px;
+    font-size: 25px;
+    font-family: monospace;
+    margin-left: 137px;
+}
+.class4:hover{
+    background-color: dodgerblue;
+}
+.class5{
+    width: 90px;
+    height: 80px;
+    font-size: 25px;
+    font-family: monospace;
+    margin-left: 138px;
+}
+.class5:hover{
+    background-color: dodgerblue;
+}
+.salom6{
+    width: 444px;
+    height: 70px;
+    font-size: 25px;
+    font-family: monospace;
+    margin-left: 19px;
+}
+.salom6:hover{
+    background-color: dodgerblue;
+}
+#s{
+    margin-left: 20px;
+}
+#a{
+    margin-left: 20px;
+}
+#w{
+    margin-left: 20px;
+}
